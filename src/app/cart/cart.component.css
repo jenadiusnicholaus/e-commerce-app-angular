@@ -1,0 +1,17 @@
+
+
+.cart-items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+}
+
+.cart{
+    position: relative;
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

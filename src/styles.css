@@ -4,12 +4,16 @@ body{
     padding: 0;
 }
 
+section{
+    padding: 20px;
+}
+
 app-root{
     margin: 0;
     pad: 0;
 }
 
-.btn-share, .btn-notify{
+.btn-share, .btn-notify, .btn-buy{
     border: 1px blue;
     background-color: brown;
     color: wheat;
@@ -17,4 +21,26 @@ app-root{
     padding: 4px;
     width: 100px;
 }
+
+#product-details{
+    padding-inline: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 400px;
+   
+}
+
+.details-card{
+    position: absolute;
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+a {
+ text-decoration: none;
+}
+
 

@@ -4,17 +4,22 @@ header{
     height: 70px;
     width: 100%;
     background-color: blueviolet;
-    padding-inline: 30px;
+    
 }
 .logo {
     font-size: 34px;
+    margin-left: 24px;
+} 
+
+.logo a{
+    color: aliceblue;
 }
 
 nav{
     position: absolute;
     height: 69px;
-    width: 90%;
-    margin-inline: 20px;
+    width: 100%;
+    /* padding-inline: 24px; */
     color: white;
     display: flex;
     align-items: center;
@@ -25,6 +30,7 @@ nav{
     background-color: white;
     border-radius: 10px;
     color: black;
+    margin-right: 20px;
     height: 50ox;
     padding: 10px;
     width: auto;
